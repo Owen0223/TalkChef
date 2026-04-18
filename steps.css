@@ -1,0 +1,242 @@
+html,
+body {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EAD2A8;
+}
+
+.step-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 800px;
+    margin: 20px 0;
+    background-color: #FFFBF1;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+.instruction-container {
+    text-align: center;
+    padding: 0 20px;
+    font-size: 1.2em;
+}
+
+.step-button {
+    background-color: #FF7043;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.step-button:hover {
+    background-color: #E64A19;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.step-button:active {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.left-button {
+    position: absolute;
+    left: 20px;
+}
+
+.right-button {
+    position: absolute;
+    right: 20px;
+}
+
+.view-container {
+    display: inline-block;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.step-notes h2 {
+    text-align: center;
+}
+
+textarea {
+    width: 90%;
+    min-height: 80px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    resize: vertical;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.note-actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.note-actions form {
+    display: inline;
+}
+
+.note-actions button {
+    width: 65px;
+    height: 35px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #FF7043;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.note-actions button:hover {
+    background-color: #E64A19;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.side-container {
+    background-color: #FFFBF1;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: auto;
+    margin: 20px;
+}
+
+.side-container p {
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.step-notes {
+    padding: 20px;
+    background-color: #FFFBF1;
+    margin: 0 auto;
+    border-radius: 8px;
+    max-width: 300px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+
+.timer-button {
+    background-color: #FF7043;
+    color: #fff;
+    padding: 8px 16px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    justify-self: center;
+}
+
+.timer-button:hover {
+    background-color: #E64A19;
+}
+
+.highlight-reminder {
+    background-color: #ffeb3b;
+    border: 1px solid #ddd;
+    color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+@keyframes shake {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: translateX(-5px);
+    }
+
+    20%,
+    40%,
+    60%,
+    80% {
+        transform: translateX(5px);
+    }
+}
+
+.shake {
+    animation: shake 0.5s ease-in-out;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px;
+}
+
+.exit-button,
+.done-button {
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 1em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.exit-button {
+    background-color: #E64A19;
+}
+
+.exit-button:hover {
+    background-color: #d63619;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.done-button {
+    background-color: #0bdb3c;
+}
+
+.done-button:hover {
+    background-color: #08a92e;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}

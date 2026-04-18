@@ -1,0 +1,134 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #EAD2A8;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+h1 {
+    margin: 25px;
+}
+
+.bigbutton {
+    margin: 20px;
+    width: 300px;
+    height: 80px;
+    font-size: large;
+    background-color: #ff976b;
+    border: 3px solid;
+    cursor: pointer;
+}
+
+.back-button {
+    text-align: left;
+    margin: 30px;
+}
+
+.back-image {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+.view-position {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.view-feedback,
+.add-container,
+.ingre-container {
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.view-feedback {
+    width: 80%;
+}
+
+.add-container,
+.ingre-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.add-container {
+    width: 40%;
+}
+
+.ingre-container {
+    width: 90%;
+}
+
+table td {
+    padding: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.user-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.desc-container {
+    text-align: left;
+}
+
+.deleteImg {
+    width: 400px;
+    height: 250px;
+}
+
+.confirm {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.confirm-button {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.table-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.ingredient-table {
+    width: 30%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.ingredient-table th,
+.ingredient-table td {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.ingredient-table td {
+    background-color: white;
+}
+
+.ingre-header {
+    background-color: #f60000;
+}

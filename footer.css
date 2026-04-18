@@ -1,0 +1,28 @@
+footer {
+    position: sticky;
+    height: 130px;
+    top: calc(100vh - 100px);
+    background-color: #ffffff;
+    padding: 20px;
+    color: #333;
+    font-family: 'Lato', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    color: #666;
+    font-size: 0.9em;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
